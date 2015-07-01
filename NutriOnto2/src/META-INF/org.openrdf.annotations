@@ -1,0 +1,6 @@
+joint.codegen.owl.equivalentClass
+joint.codegen.owl.hasValue
+joint.codegen.owl.intersectionOf
+joint.codegen.owl.oneOf
+joint.codegen.rdfs.subClassOf
+joint.codegen.rdfs.subPropertyOf
