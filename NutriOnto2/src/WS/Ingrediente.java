@@ -100,7 +100,7 @@ class Ingrediente {
     }
 
     private int verificaIngredienteHipertensao(String nome) {
-        String ontology_path = "/home/luiz/Desktop/nossaOntovinf2.owl";
+        String ontology_path = "/home/luizpacinni_gmail_com/NutriOnto/NutriOnto2/nossaOntovinf2.owl";
         String ontology_uri = "http://www.semanticweb.org/debora/ontologies/2015/5/26/untitled-ontology-40#";
         RepositoryFacade facade = new RepositoryFacade();
         facade.addOntology(ontology_path, ontology_uri);
