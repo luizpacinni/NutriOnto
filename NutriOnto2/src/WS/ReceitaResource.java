@@ -25,7 +25,7 @@ public class ReceitaResource {
 
     @GET
     @Path("/{a}/json")
-    @Produces(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON + ";charset=utf-8")
     public ArrayList<Receita> getListaReceitasAsJSON(@PathParam("a") String name) {
         return this.buscaListaReceitas(name);
     }
